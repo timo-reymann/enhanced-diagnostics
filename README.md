@@ -1,4 +1,4 @@
-enhanced-log
+enhanced-diagnostics
 ===
 This is a simple tool for transmitting device information and local log to your endpoint. 
 
@@ -10,7 +10,7 @@ recording their hole session or destroying their privacy. The user decides if an
 | Step                                                   | Code                                                                                   |
 | :------------------------------------------------------| :------------------------------------------------------------------------------------- |
 | Intercept xhr, fetch and console api                   | ``window.logger = new DatabaseLogger('my_log_db', 1)``                                 |
-| Log all network requests and console stuff to IndexedDB| Let enhanced-log do the work.                                                          |
+| Log all network requests and console stuff to IndexedDB| Let diagnostics do the work.                                                          |
 | User triggers report of bug/error, collect data        | ``let logReporter = new LogReporter(logger)``                                          |
 | Build report, break into chunks, encrypt the chunks    | This happens in the sendReport step.                                                   |
 | Send report encrypted to server                        | ``await logReporter.sendReport("report.php", publicKey)``                              |
@@ -21,12 +21,12 @@ recording their hole session or destroying their privacy. The user decides if an
 
 | ![Process](./graphics/process.svg) 
 |:--:| 
-| Blue parts are handeled using enhanced-log, as explained above. The steps in orange you must implement yourself on server side. |
+| Blue parts are handeled using diagnostics, as explained above. The steps in orange you must implement yourself on server side. |
 
 ## Code Sample
 You can find an code sample in [/development](./development/index.html).
 
 ## What is coming next?
 
-- Spring Boot Starter for usage of enhanced-log
-- PHP library for enhanced-log
+- Spring Boot Starter for usage of diagnostics
+- PHP library for diagnostics

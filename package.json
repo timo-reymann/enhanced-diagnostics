@@ -1,10 +1,11 @@
 {
-  "name": "enhanced-log",
+  "name": "enhanced-diagnostics",
   "version": "1.0.0",
   "description": "Enhanced log with diagnostic functionality",
   "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -13,9 +14,9 @@
   "author": "Timo Reymann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timo-reymann/enhanced-log/issues"
+    "url": "https://github.com/timo-reymann/enhanced-diagnostics/issues"
   },
-  "homepage": "https://github.com/timo-reymann/enhanced-log#readme",
+  "homepage": "https://github.com/timo-reymann/enhanced-diagnostics#readme",
   "dependencies": {
     "dexie": "^2.0.4",
     "jsencrypt": "^3.0.0-rc.1"
