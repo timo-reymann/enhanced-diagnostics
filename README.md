@@ -3,7 +3,7 @@ enhanced-diagnostics
 This is a simple tool for transmitting device information and local log to your endpoint. 
 
 The idea behind this package is to provide more information to find bugs and help users faster without 
-recording their hole session or destroying their privacy. The user decides if and then he wants to send the data.
+recording their whole session or destroying their privacy. The user decides if and then he wants to send the data.
 
 ## General usage
 
@@ -24,7 +24,7 @@ recording their hole session or destroying their privacy. The user decides if an
 | Blue parts are handeled using diagnostics, as explained above. The steps in orange you must implement yourself on server side. |
 
 ## Code Sample
-You can find an code sample in [/development](./development/index.html).
+You can find an code sample in [/development](./development/).
 
 ## What is coming next?
 
