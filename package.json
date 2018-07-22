@@ -1,7 +1,7 @@
 {
   "name": "enhanced-diagnostics",
-  "version": "1.0.0",
-  "description": "Enhanced log with diagnostic functionality",
+  "version": "1.0.1",
+  "description": "This is a simple tool for transmitting device information and local log to your endpoint. ",
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

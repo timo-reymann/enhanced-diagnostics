@@ -19,12 +19,12 @@ recording their whole session or destroying their privacy. The user decides if a
 
 ## Reporting
 
-| ![Process](./graphics/process.svg) 
+| ![Process](https://raw.githubusercontent.com/timo-reymann/enhanced-diagnostics/master/graphics/process.svg?sanitize=true)
 |:--:| 
 | Blue parts are handeled using diagnostics, as explained above. The steps in orange you must implement yourself on server side. |
 
 ## Code Sample
-You can find an code sample in [/development](./development/).
+You can find an code sample in [/development](https://github.com/timo-reymann/enhanced-diagnostics/tree/master/development).
 
 ## What is coming next?
 
