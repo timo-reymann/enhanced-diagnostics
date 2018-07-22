@@ -26,6 +26,9 @@ recording their whole session or destroying their privacy. The user decides if a
 ## Code Sample
 You can find an code sample in [/development](https://github.com/timo-reymann/enhanced-diagnostics/tree/master/development).
 
+## Custom report uploading
+If you just need the encrypted plugins but want to specify custom parameters/values or a custom fetch config you can use ``LogReporter#buildReportChunks`(publicKey : String) : Promise<String>`. This gives you the report chunks as json string.
+
 ## What is coming next?
 
 - Spring Boot Starter for usage of diagnostics

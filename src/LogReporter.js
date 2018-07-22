@@ -54,7 +54,7 @@ export default class LogReporter {
      * @returns {Promise<string>}
      * @private
      */
-    async _buildReportChunks(publicKey) {
+    async buildReportChunks(publicKey) {
         if (!publicKey || publicKey === null) {
             throw 'Public key is required, for encryption'
         }
@@ -72,7 +72,7 @@ export default class LogReporter {
     async sendReport(url, publicKey) {
         return await fetch(url, {
             method: 'POST',
-            body: await this._buildReportChunks(publicKey)
+            body: await this.buildReportChunks(publicKey)
         }).then(() => this.logger.clear());
     }
 }
