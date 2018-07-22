@@ -1,6 +1,6 @@
 {
   "name": "enhanced-diagnostics",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a simple tool for transmitting device information and local log to your endpoint. ",
   "main": "dist/main.js",
   "scripts": {
@@ -24,5 +24,13 @@
   "devDependencies": {
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0"
-  }
+  },
+  "keywords": [
+    "enhanced-diagnostics",
+    "diagnostics",
+    "log",
+    "debug",
+    "lib",
+    "library"
+  ]
 }
