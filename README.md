@@ -46,6 +46,7 @@ If you just need the encrypted plugins but want to specify custom parameters/val
 ## Libraries for your server side
 
 - [Java](https://github.com/timo-reymann/enhanced-diagnostics-java)
+- [Spring Boot](https://github.com/timo-reymann/enhanced-diagnostics-spring-boot-starter)
 - PHP (Coming soon!)
 
 
