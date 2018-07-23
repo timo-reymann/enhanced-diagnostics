@@ -49,6 +49,3 @@ If you just need the encrypted plugins but want to specify custom parameters/val
 - [Spring Boot](https://github.com/timo-reymann/enhanced-diagnostics-spring-boot-starter)
 - [PHP](https://github.com/timo-reymann/enhanced-diagnostics-php)
 
-
-## What is coming next?
-- PHP library for diagnostics
