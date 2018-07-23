@@ -32,6 +32,8 @@ async function main() {
         await logReporter.sendReport("report.php", pubKey.publicKey);
         alert("Your report was succesfuly sent!")
     });
+    
+    fetch("/test")
 }
 
 document.addEventListener("DOMContentLoaded", () => {
