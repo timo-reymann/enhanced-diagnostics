@@ -1,6 +1,6 @@
 {
   "name": "enhanced-diagnostics",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This is a simple tool for transmitting device information and local log to your endpoint. ",
   "main": "dist/main.js",
   "scripts": {
