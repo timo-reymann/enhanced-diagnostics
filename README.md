@@ -40,7 +40,7 @@ You can find an code sample in [/development](https://github.com/timo-reymann/en
 
 ## Custom report uploading
 
-If you just need the encrypted plugins but want to specify custom parameters/values or a custom fetch config you can use ``LogReporter#buildReportChunks`(publicKey : String) : Promise<String>`. This gives you the report chunks as json string.
+If you just need the encrypted plugins but want to specify custom parameters/values or a custom fetch config you can use ``LogReporter#buildReportChunks`(publicKey : String) : Promise<String>``. This gives you the report chunks as json string.
 
 
 ## Libraries for your server side

@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timo-reymann/enhanced-log.git"
+    "url": "git+https://github.com/timo-reymann/enhanced-diagnostics.git"
   },
   "author": "Timo Reymann",
   "license": "MIT",
